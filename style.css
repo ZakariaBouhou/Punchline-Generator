@@ -1,0 +1,34 @@
+html, body {
+    background: black;
+    background: -webkit-linear-gradient(to right, #104e64, black);
+    background: linear-gradient(to right, #305f74, black);
+    height: 100%;
+    min-width: 500px;
+  }
+  
+  #citation {
+    font-size: 2em;
+    font-family: 'Satisfy', curve;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+  }
+  
+  #citation:before {
+      content: open-quote;
+  }
+  
+  #citation:after {
+      content: close-quote;
+  }
+  
+  #auteur {
+    font-size: 1.5em;
+    font-style: italic;
+  }
+  
+  #nouveau {
+    background: #a7c3dd;
+    background: -webkit-linear-gradient(to right, #4d31b6, #a7c3dd);
+    background: linear-gradient(to right, #364f94, #a7c3dd);
+    cursor: pointer;
+  }
