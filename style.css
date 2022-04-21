@@ -32,3 +32,41 @@ html, body {
     background: linear-gradient(to right, #364f94, #a7c3dd);
     cursor: pointer;
   }
+
+
+.anim {
+  animation: fromLeftSide 3s forwards;  
+  animation-delay: 0s;
+}
+
+@keyframes fromLeftSide {
+    from {
+        transform: translateX(-300px);
+        opacity: 0
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1
+    }
+}
+
+@keyframes fromDownSide {
+    from {
+        transform: translateY(200px);
+        opacity: 0
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1
+    }
+}
+
+.bird {
+  right: 100px;
+  bottom: 10px;
+
+  animation: fromDownSide 3s forwards;  
+  animation-delay: 0s;
+}
